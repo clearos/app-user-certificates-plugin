@@ -1,7 +1,7 @@
 
 Name: app-user-certificates-plugin
 Epoch: 1
-Version: 1.0.9
+Version: 1.0.10
 Release: 1%{dist}
 Summary: Security Certificates Policies - APIs and install
 License: LGPLv3
