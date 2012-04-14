@@ -1,9 +1,9 @@
 
 Name: app-user-certificates-plugin
 Epoch: 1
-Version: 1.0.10
+Version: 1.1.0
 Release: 1%{dist}
-Summary: Security Certificates Policies - APIs and install
+Summary: Security Certificates Policies - Core
 License: LGPLv3
 Group: ClearOS/Libraries
 Source: app-user-certificates-plugin-%{version}.tar.gz
@@ -13,7 +13,7 @@ Buildarch: noarch
 User Certificates Policies provide access control for the security certificates.
 
 %package core
-Summary: Security Certificates Policies - APIs and install
+Summary: Security Certificates Policies - Core
 Requires: app-base-core
 Requires: app-accounts-core
 
