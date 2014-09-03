@@ -1,7 +1,7 @@
 
 Name: app-user-certificates-plugin
 Epoch: 1
-Version: 1.1.0
+Version: 1.6.5
 Release: 1%{dist}
 Summary: Security Certificates Policies - Core
 License: LGPLv3
@@ -54,9 +54,7 @@ exit 0
 %files core
 %defattr(-,root,root)
 %exclude /usr/clearos/apps/user_certificates_plugin/packaging
-%exclude /usr/clearos/apps/user_certificates_plugin/tests
 %dir /usr/clearos/apps/user_certificates_plugin
 /usr/clearos/apps/user_certificates_plugin/deploy
 /usr/clearos/apps/user_certificates_plugin/language
-/usr/clearos/apps/user_certificates_plugin/libraries
 /var/clearos/accounts/plugins/user_certificates.php
