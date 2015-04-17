@@ -5,7 +5,7 @@
 /////////////////////////////////////////////////////////////////////////////
 
 $app['basename'] = 'user_certificates_plugin';
-$app['version'] = '2.0.18';
+$app['version'] = '2.0.24';
 $app['release'] = '1';
 $app['vendor'] = 'ClearFoundation';
 $app['packager'] = 'ClearFoundation';
@@ -37,3 +37,5 @@ $app['core_file_manifest'] = array(
         'target' => '/var/clearos/accounts/plugins/user_certificates.php'
     ),
 );
+
+$app['delete_dependency'] = array();
