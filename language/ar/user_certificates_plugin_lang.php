@@ -1,6 +1,6 @@
 <?php
 
-$lang['user_certificates_plugin_app_description'] = 'User Certificates Policies provide access control for the security certificates.';
-$lang['user_certificates_plugin_app_name'] = 'Security Certificates Policies';
-$lang['user_certificates_plugin_pptp_server_user'] = 'Security Certificates User';
+$lang['user_certificates_plugin_app_description'] = 'توفر شهادات المستخدم سياسات التحكم في الوصول لشهادات الأمان.';
+$lang['user_certificates_plugin_app_name'] = 'شهادات الأمن السياسات';
+$lang['user_certificates_plugin_pptp_server_user'] = 'شهادات الأمن العضو';
 
